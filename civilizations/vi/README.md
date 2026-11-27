@@ -1,1 +1,1 @@
-# Civilization: vi (Tiếng Việt)
+# Civilization: vi (Vietnamese)

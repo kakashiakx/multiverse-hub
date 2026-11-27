@@ -1,6 +1,6 @@
-# Lộ trình
+# Roadmap
 
-- [ ] Xác định vũ trụ đầu tiên trong `universes/`
-- [ ] Chọn nền tảng ưu tiên trong `platforms/`
-- [ ] Thiết lập môi trường dev và production
-- [ ] Thêm ngôn ngữ và địa phương hoá đầu tiên
+- [ ] Define the first real universe in `universes/`
+- [ ] Choose the priority platform in `platforms/`
+- [ ] Set up the dev and production environments
+- [ ] Add the first localizations

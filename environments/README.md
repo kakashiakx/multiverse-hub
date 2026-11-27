@@ -1,3 +1,3 @@
 # Environments
 
-Cấu hình riêng cho từng môi trường. Không để bí mật thật trong repo.
+Configuration for each environment. Never store real secrets in this repository.

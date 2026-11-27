@@ -1,3 +1,3 @@
 # Universes
 
-Mỗi vũ trụ là một thư mục con độc lập, ví dụ `universes/alpha/`.
+Each universe is its own independent subdirectory, for example `universes/alpha/`.

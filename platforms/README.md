@@ -1,3 +1,3 @@
 # Platforms
 
-Mỗi nền tảng một thư mục con.
+One subdirectory per platform.

@@ -1,3 +1,3 @@
 # Universe: alpha
 
-Vũ trụ mẫu. Đổi tên hoặc xoá khi bạn có vũ trụ thật.
+Sample universe. Rename or delete it once you have a real one.

@@ -1,4 +1,4 @@
-# Tài liệu
+# Documentation
 
-- [architecture.md](architecture.md): cách bốn chiều liên kết với nhau
-- [roadmap.md](roadmap.md): kế hoạch tiếp theo
+- [architecture.md](architecture.md): how the four dimensions fit together
+- [roadmap.md](roadmap.md): what comes next

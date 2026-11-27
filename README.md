@@ -1,14 +1,26 @@
 # multiverse-hub
 
-Đa vũ trụ, đa nền tảng, đa môi trường, đa nền văn minh...
+Multi-universe, multi-platform, multi-environment, multi-civilization.
 
-Một kho chung để tổ chức mọi thứ theo bốn chiều:
+A single repository that organizes everything along four dimensions:
 
-| Chiều | Thư mục | Ý nghĩa |
+| Dimension | Directory | Meaning |
 | --- | --- | --- |
-| Vũ trụ | `universes/` | Các thế giới / bối cảnh / dự án độc lập |
-| Nền tảng | `platforms/` | Web, mobile, desktop, cloud, IoT... |
-| Môi trường | `environments/` | dev, staging, production, sandbox... |
-| Nền văn minh | `civilizations/` | Ngôn ngữ, văn hoá, địa phương hoá |
+| Universe | `universes/` | Independent worlds, contexts, or projects |
+| Platform | `platforms/` | Web, mobile, desktop, cloud, IoT, and so on |
+| Environment | `environments/` | dev, staging, production, sandbox, and so on |
+| Civilization | `civilizations/` | Languages, cultures, and localization |
 
-Xem thêm trong `docs/`.
+Shared code and assets live in `shared/`, and automation lives in `scripts/`.
+
+## Getting started
+
+1. Clone the repository.
+2. Copy `.env.example` to `.env` and fill in real values.
+3. Pick a universe, a platform, and an environment, then work inside the matching directories.
+
+See [`docs/`](docs/README.md) for the architecture and roadmap, and [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+## License
+
+[MIT](LICENSE)

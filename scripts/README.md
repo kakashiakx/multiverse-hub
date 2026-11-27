@@ -1,3 +1,3 @@
 # Scripts
 
-Các script tự động hoá (build, deploy, kiểm tra).
+Automation scripts for building, deploying, and checking the repository.
