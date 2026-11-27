@@ -1,0 +1,5 @@
+{
+  "name": "dev",
+  "logLevel": "debug",
+  "apiUrl": "http://localhost:3000"
+}

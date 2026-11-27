@@ -1,0 +1,5 @@
+{
+  "name": "production",
+  "logLevel": "warn",
+  "apiUrl": "https://example.com"
+}

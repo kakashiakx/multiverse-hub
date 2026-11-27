@@ -1,0 +1,5 @@
+{
+  "name": "staging",
+  "logLevel": "info",
+  "apiUrl": "https://staging.example.com"
+}

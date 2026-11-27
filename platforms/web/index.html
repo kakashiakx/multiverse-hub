@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>multiverse-hub</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p id="welcome"></p>
+    <script type="module">
+      const params = new URLSearchParams(location.search);
+      const requested = params.get("lang") ?? "en";
+      const locale = /^[a-z]{2}(-[A-Z]{2})?$/.test(requested) ? requested : "en";
+      const load = async (l) =>
+        (await fetch(`../../civilizations/${l}/messages.json`)).json();
+      const fallback = await load("en");
+      let messages = fallback;
+      if (locale !== "en") {
+        try {
+          messages = { ...fallback, ...(await load(locale)) };
+        } catch {
+          messages = fallback;
+        }
+      }
+      document.documentElement.lang = locale;
+      document.getElementById("title").textContent = messages.title;
+      document.getElementById("welcome").textContent = messages.welcome;
+    </script>
+  </body>
+</html>

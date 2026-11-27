@@ -1,1 +1,1 @@
-# Civilization: ja (日本語)
+# Civilization: ja (Japanese)

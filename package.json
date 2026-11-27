@@ -1,0 +1,15 @@
+{
+  "name": "multiverse-hub",
+  "version": "0.1.0",
+  "description": "Multi-universe, multi-platform, multi-environment, multi-civilization.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-structure.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "alpha",
+  "description": "Sample universe. Rename or delete it once you have a real one.",
+  "platforms": ["web"],
+  "environments": ["dev", "staging", "production"],
+  "locales": ["en", "vi", "ja"]
+}
