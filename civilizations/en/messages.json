@@ -1,4 +1,5 @@
 {
   "title": "multiverse-hub",
-  "welcome": "Welcome to the multiverse."
+  "welcome": "Welcome to the multiverse.",
+  "iot.reading": "Temperature {temperature} °C, humidity {humidity} %"
 }

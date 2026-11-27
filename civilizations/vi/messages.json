@@ -1,3 +1,4 @@
 {
-  "welcome": "Chào mừng đến với đa vũ trụ."
+  "welcome": "Chào mừng đến với đa vũ trụ.",
+  "iot.reading": "Nhiệt độ {temperature} °C, độ ẩm {humidity} %"
 }
