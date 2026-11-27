@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "multiverse-hub",
+    "slug": "multiverse-hub",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android"]
+  }
+}
